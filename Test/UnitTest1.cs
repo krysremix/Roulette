@@ -11,20 +11,9 @@ namespace Test
 {
     public class Tests
     {
-        private readonly IBetService _betService;
-
-        public Tests()
-        {
-            _betService = Helper.GetRequiredService<IBetService>();
-        }
-
         [SetUp]
         public void Setup()
         {
-            
-
-            //var mockSpinRepo = new Mock<ISpinRepo>();
-
         }
 
         [Test]
