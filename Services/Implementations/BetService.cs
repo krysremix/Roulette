@@ -57,7 +57,7 @@ namespace Services.Implementations
             return bet.BetType switch
             {
                 "number" => bet.BetValue == spinResult.Number.ToString(),
-                "color" => bet.BetValue == spinResult.Colour,
+                "colour" => bet.BetValue == spinResult.Colour,
                 _ => false
             };
         }
@@ -67,7 +67,7 @@ namespace Services.Implementations
             return bet.BetType switch
             {
                 "number" => bet.Amount * 35,
-                "color" => bet.Amount * 2,
+                "colour" => bet.Amount * 2,
                 _ => 0
             };
         }
